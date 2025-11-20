@@ -225,9 +225,4 @@ st.markdown("""
 **How it works (quickly):** We compare your text with a compact reference built from several famous Shakespeare passages. 
 First, we look at word and bigram usage via TF–IDF cosine similarity. Next, we compare a few style indicators (sentence length, lexical diversity, archaic function words, and phrase density). A weighted blend gives the final score.
 
-**Run locally:**
-```bash
-pip install streamlit scikit-learn numpy
-streamlit run shakespeare_similarity_app.py
-```
 """)
